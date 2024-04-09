@@ -19,10 +19,10 @@ Blockly.defineBlocksWithJsonArray([
             },
             {
                 "type": "field_image",
-                "src": "/static/MicroBlock/images/icon/led7segments.png",
+                "src": "/static/MicroBlock/images/icon/hdc1080.png",
                 "width": 45,
                 "height": 45,
-                "alt": "led7segments"
+                "alt": "hdc1080"
             }
         ],
         "inputsInline": true,
@@ -50,10 +50,10 @@ Blockly.defineBlocksWithJsonArray([
             },
             {
                 "type": "field_image",
-                "src": "/static/MicroBlock/images/icon/led7segments.png",
+                "src": "/static/MicroBlock/images/icon/hdc1080.png",
                 "width": 45,
                 "height": 45,
-                "alt": "led7segments"
+                "alt": "hdc1080"
             }
         ],
         "output": "Number",
