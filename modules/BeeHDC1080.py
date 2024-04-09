@@ -28,7 +28,7 @@ class BeeHDC1080:
         data = bytearray(3)
         data[0] = CONF_REG
         data[1] = setup_data
-        i2c.writeto(self.addr, data)
+        self.i2c.writeto(self.addr, data)
 
     def read_temperature(self, celsius=True):
         """ Read the temperature
